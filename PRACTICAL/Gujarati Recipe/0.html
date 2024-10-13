@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipes</title>
+    <style>
+        body 
+        {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav 
+        {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav ul 
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav ul li 
+        {
+            display: inline;
+        }
+        nav ul li a 
+        {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .grid-container 
+        {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        .grid-item 
+        {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .grid-item img 
+        {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Gujarati</a></li>
+            <li><a href="#">Punjabi</a></li>
+            <li><a href="#">South Indian</a></li>
+            <li><a href="#">Desserts</a></li>
+            <li><a href="#">Snacks</a></li>
+        </ul>
+    </nav>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="image/Basundi.webp" alt="Dish 1">
+            <p>Dish 1</p>
+        </div>
+        <div class="grid-item">
+            <img src="image/Samosa.jpg" alt="Dish 2">
+            <p>Dish 2</p>
+        </div>
+        <div class="grid-item">
+            <img src="image/Vegetable Korma.jpeg" alt="Dish 3">
+            <p>Dish 3</p>
+        </div>
+    </div>
+</body>
+</html>
