@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-transform: uppercase;
+    background-color: green;
+}
+
+hr {
+    height: 4px;
+    background-color: black;
+}
+
+ul li {
+    display: inline-block;
+}
