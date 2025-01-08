@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar January 2025</title>
+</head>
+
+<body>
+    <h1>January 2025</h1>
+    <div id="calendar"></div>
+    <script>
+        let generateCalendar = function() {
+            var daysInMonth = 31;
+            var firstDay = 3;
+            var calendarOutput = `<table>`;
+
+            calendarOutput += `
+            <thead>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody>`;
+
+            var currentDay = 1;
+            var row = `<tr>`;
+
+            var count = 0;
+            while (count < firstDay) {
+                row += `<td></td>`;
+                count++;
+            }
+
+            while (currentDay <= 7 - firstDay && currentDay <= daysInMonth) {
+                row += `<td>${currentDay}</td>`;
+                currentDay++;
+            }
+            row += `</tr>`;
+            calendarOutput += row;
+
+            // Generate the remaining weeks
+            while (currentDay <= daysInMonth) {
+                row = `<tr>`;
+                count = 0;
+                while (count < 7 && currentDay <= daysInMonth) {
+                    row += `<td>${currentDay}</td>`;
+                    currentDay++;
+                    count++;
+                }
+                row += `</tr>`;
+                calendarOutput += row;
+            }
+
+            calendarOutput += `</tbody></table>`;
+            document.getElementById('calendar').innerHTML = calendarOutput;
+        };
+
+        // Call the function to generate the calendar
+        generateCalendar();
+    </script>
+</body>
+
+</html>

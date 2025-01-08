@@ -1,4 +1,4 @@
-1) : Responsive Product products
+1) : Responsive products listing
 
     Design a product listing with 12 product, making sure the layout adjusts across various screen sizes:
 
@@ -21,7 +21,7 @@
 
     apply img-fluid to each and every image
 
-3): Responsive Pricing Table
+3) : Responsive Pricing Table
 
     Create a responsive pricing table that displays different pricing plans. Adjust the layout based on screen size:
 
@@ -30,7 +30,7 @@
     Display 3 pricing plans per row on medium screens.
     Display all pricing plans in a single row on large and extra-large screens.
 
-4): Responsive Testimonial Section
+4) : Responsive Testimonial Section
 
     Design a responsive testimonial section where user reviews are displayed:
 
@@ -39,7 +39,7 @@
     On medium screens, display 3 testimonials per row.
     On large and extra-large screens, display 4 testimonials per row.
 
-5): Responsive Blog Layout
+5) : Responsive Blog Layout
 
     Create a responsive blog layout that adjusts for different screen sizes:
 
@@ -48,5 +48,20 @@
     Display 3 blog posts per row on medium screens.
     Display 4 blog posts per row on large and extra-large screens.
 
-6) create below resume responsive
+6) : create below resume responsive use link blow for reference
     https://d.novoresume.com/images/doc/skill-based-resume-template.png
+
+7) : Create inline form to book hotel. use link blow for reference 
+    https://www.makemytrip.com/hotels/
+
+8) : create grid form to register yourself to find life partner. use link blow for reference 
+    https://www.shaadi.com
+
+9) : create horizontal form to register yourself on twitter. use link blow for reference 
+    https://x.com/i/flow/signup
+
+10) : create vertical form to login yourself on twitter. use link blow for reference 
+    https://x.com/i/flow/login
+
+                <img src="https://picsum.photos/1900/600" alt="Image" class="w-100">
+                <img src="img/mountains.jpg" width="1900" height="600" alt="Image" class="w-100">
